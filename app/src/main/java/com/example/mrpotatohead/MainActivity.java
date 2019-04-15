@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // check if something was saved in the bundle for landscape version
         if (savedInstanceState != null){
             if (savedInstanceState.getInt("arms") == View.VISIBLE){
                 findViewById(R.id.arms).setVisibility(View.VISIBLE);
@@ -55,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void checkClicked(View v) {
-        Log.d("potato", "checkClicked: ");
         CheckBox checkbox = (CheckBox) v;
 
         ImageView image;
@@ -63,7 +63,6 @@ public class MainActivity extends AppCompatActivity {
         switch (Id) {
             case R.id.checkBox_arms:
                 image = (ImageView) findViewById(R.id.arms);
-//                  break is voor als iemand meerdere zou selecteren dat ie enkel 1 case checkt.
                 break;
             case R.id.checkBox_mustache:
                 image = (ImageView) findViewById(R.id.mustache);
@@ -92,7 +91,6 @@ public class MainActivity extends AppCompatActivity {
             case R.id.checkBox_shoes:
                 image = (ImageView) findViewById(R.id.shoes);
                 break;
-//                  default voor als niks zou worden geselecteerd dat de code toch iets meekrijgt.
             default:
                 image = (ImageView) findViewById(R.id.arms);
         }
