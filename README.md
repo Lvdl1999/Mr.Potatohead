@@ -2,7 +2,7 @@
 ## By Levy van der Linde 
 ## Minor Programmeren
 
-Once someone opens the app, the potatoe will show.
+Once someone opens the app, mr.potatoe will show up.
 All the possible checkboxes are now unselected and that means the items are invisible.
 The user can select one (or more) checkboxes to dress the potatoe.
 
