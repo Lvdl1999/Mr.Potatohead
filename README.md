@@ -21,6 +21,10 @@ So to show you this app does work, here is an example with screenshots:
 
 1. open the app
 
+src="https://user-images.githubusercontent.com/47352487/56110787-03609c00-5f56-11e9-97d6-c304cb76fd2d.png">
+
+https://github.com/Lvdl1999/Mr.Potatohead/issues/2
+
 2. select arms and ears
 
 3. deselect arms
