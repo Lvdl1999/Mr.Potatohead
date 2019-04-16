@@ -7,8 +7,7 @@ All the possible checkboxes are now unselected and that means the items are invi
 The user can select one (or more) checkboxes to dress the potatoe.
 
 The 'checkClicked' function checks which checkbox the user had selected.
-In this function there is a break and default included. Break is to stop execution in the switcht.
-Default is to make sure the image has a value even if non of the cases is true. 
+In this function there is a break and default included. Break is to stop execution in the switch function. Default is to make sure the image has a value even if non of the cases is true. 
 
 After the 'checkClicked' function, if an item was selected, it turns visible on the potatoe.
 Because this is an Android app, the layout may be reloaded when leaving the app. 
