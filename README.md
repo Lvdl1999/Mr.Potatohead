@@ -11,7 +11,7 @@ In this function there is a break and default included. Break is to stop executi
 
 After the 'checkClicked' function, if an item was selected, it turns visible on the potatoe.
 Because this is an Android app, the layout may be reloaded when leaving the app. 
-To make sure it remember which items were selected and on the potatoe, 
+To make sure it remembers which items were selected and on the potatoe, 
 the 'onSaveInstanceState(Bundle outState' function was implemented. It makes sure to put all the items in a bundle.
 In case someone turns the phone to landscape, the app will reload and get all data from the bundle.
 If the item is on 'View.Visible' it means its get.visibility will return 'visible' and it will be shown on the reloaded version.
